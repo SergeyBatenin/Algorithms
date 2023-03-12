@@ -127,7 +127,7 @@ public class MyList<T> {
     }
 
     public void reverse() {
-        if (size < 2) return;
+        //if (size < 2) return;
 
         Node<T> node = head;
         revert(node);
